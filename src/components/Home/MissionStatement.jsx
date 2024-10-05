@@ -20,10 +20,11 @@ function MissionStatement() {
         </ul>
       </div>
       <div className="mission-image">
-        {/* Replace with actual images */}
         <div className="image-collage">
-          <img src="./assets/images/collage-1.jpg" alt="Students learning" />
-          <img src="./assets/images/collage-2.jpg" alt="Clean water supply" />
+          <img src="./assets/images/collage-1.jpg" alt="NGO" />
+          <img src="./assets/images/collage-2.jpg" alt="Students learning" />
+          <img src="./assets/images/collage-3.jpg" alt="NGO" />
+          <img src="./assets/images/collage-4.jpg" alt="Students learning" />
         </div>
       </div>
     </section>
