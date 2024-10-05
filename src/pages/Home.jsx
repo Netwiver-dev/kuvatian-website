@@ -10,6 +10,7 @@ import News from "../components/Home/News";
 import ContactUs from "../components/Home/ContactUs";
 import Gallery from "../components/Home/Gallery";
 import Footer from "../components/Footer";
+import "../assets/css/config.css";
 function Home() {
   return (
     <>

@@ -1,0 +1,36 @@
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --primary-color: #ffffff;
+  --secondary-light: #f9a825;
+  --secondary-color: #ff5722;
+  --secondary-dark: #388e3c;
+  --secondary-darker: #263238;
+  --text-color: #212121;
+  --overlay-color: rgba(0, 0, 0, 0.5);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--primary-color);
+  color: var(--text-color);
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 0 10px;
+  }
+}
