@@ -1,6 +1,6 @@
 import React from "react";
 import "../assets/css/Footer.css";
-import { FaFacebookF, FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
       <div className="footer-content">
         <div className="social-links">
           <a
-            href="https://facebook.com"
+            href="https://facebook.com/profile.php?id=61550623551815"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Facebook"
@@ -16,21 +16,14 @@ const Footer = () => {
             <FaFacebookF />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/kivutian_fraternity/"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Instagram"
           >
             <FaInstagram />
           </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label="LinkedIn"
-          >
-            <FaLinkedinIn />
-          </a>
+   
         </div>
         <div className="legal-links">
           <a href="#donate">Donate</a>
