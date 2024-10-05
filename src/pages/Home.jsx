@@ -13,7 +13,7 @@ import Footer from "../components/Footer";
 import "../assets/css/config.css";
 function Home() {
   return (
-    <>
+    <div className="app">
       <Header />
       <HeroSection />
       <MissionStatement />
@@ -25,7 +25,7 @@ function Home() {
       <ContactUs />
       <Gallery />
       <Footer />
-    </>
+    </div>
   );
 }
 
