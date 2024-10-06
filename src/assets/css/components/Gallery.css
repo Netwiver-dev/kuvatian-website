@@ -1,0 +1,63 @@
+.gallery {
+    text-align: center;
+    margin: 50px 0;
+}
+
+.gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.gallery h4 {
+    color: var(--secondary-color);
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.gallery p {
+    font-size: 1.2rem;
+    color: var(--secondary-darker);
+    margin-bottom: 1rem;
+}
+
+.carousel {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    max-height: 400px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.carousel-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    transition: transform 0.5s ease;
+}
+
+.prev-btn,
+.next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 1.5rem;
+}
+
+.prev-btn {
+    left: 10px;
+}
+
+.next-btn {
+    right: 10px;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+    background-color: var(--secondary-dark);
+}
