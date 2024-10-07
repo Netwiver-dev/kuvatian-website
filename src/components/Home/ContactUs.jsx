@@ -14,8 +14,8 @@ const ContactUs = () => {
   });
 
   const handleChange = (e) => {
-    const { fullName, value } = e.target;
-    setFormData({ ...formData, [fullName]: value });
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
   };
 
   const handleSubmit = (e) => {
@@ -28,7 +28,7 @@ const ContactUs = () => {
     const body = `
       Full Name: ${fullName}
       Email: ${email}
-      CTA: ${cta.replace(/\n/g, "%0A")}
+      Message: ${cta.replace(/\n/g, "%0A")}
     `;
 
     // Create mailto link

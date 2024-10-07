@@ -6,6 +6,9 @@
   display: flex;
   align-items: center;
   position: relative;
+  background-attachment: fixed;
+
+  background-repeat: no-repeat;
 }
 
 .hero::before {
@@ -67,6 +70,9 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    background-attachment: scroll;
+  }
   .hero h1 {
     font-size: 2rem;
   }

@@ -53,8 +53,7 @@ const GetInvolved = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(formData);
-    // Here you would typically send the data to your backend
-    alert("Thank you for volunteering! We will contact you soon.");
+      alert("Thank you for volunteering! We will contact you soon.");
     setIsModalOpen(false);
   };
 
